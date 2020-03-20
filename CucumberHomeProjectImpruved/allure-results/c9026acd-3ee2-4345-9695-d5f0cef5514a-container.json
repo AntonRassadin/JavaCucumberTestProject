@@ -1,0 +1,1 @@
+{"uuid":"c9026acd-3ee2-4345-9695-d5f0cef5514a","name":"Scenario: Поиск ссылки в результатах поиска","children":["77915cc6-44a6-4e4e-917e-0827142ee858"],"befores":[],"afters":[{"name":"Hooks.end_01()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1583141140334,"stop":1583141140335}],"links":[],"start":1583141128755,"stop":1583141140341}

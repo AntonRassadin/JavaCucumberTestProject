@@ -1,0 +1,441 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Поиск ссылки в результатах поиска",
+        "description": "",
+        "id": "поиск-в-яндексе;поиск-ссылки-в-результатах-поиска",
+        "after": [
+          {
+            "result": {
+              "duration": 721572600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.завершитьРаботу()"
+            }
+          },
+          {
+            "result": {
+              "duration": 355200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_01()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9912057900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "запустить Chrome",
+            "match": {
+              "location": "BaseStepDefs.запуститьChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1355244000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "перейти на сайт \u0027https://yandex.ru/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://yandex.ru/",
+                  "offset": 17
+                }
+              ],
+              "location": "BaseStepDefs.перейти_на_сайт(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295523800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "ввести в поиск \u0027Гладиолус\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Гладиолус",
+                  "offset": 16
+                }
+              ],
+              "location": "YandexStepDefs.ввести_в_поиск(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1522271700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "нажать поиск",
+            "match": {
+              "location": "YandexStepDefs.нажатьПоиск()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172389800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "найти в результатах ссылку \u0027https://ru.wikipedia.org/wiki/%D0%A8%D0%BF%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://ru.wikipedia.org/wiki/%D0%A8%D0%BF%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA",
+                  "offset": 28
+                }
+              ],
+              "location": "YandexStepDefs.найти_в_результатах_ссылку(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@otlad"
+          }
+        ]
+      }
+    ],
+    "name": "Поиск в яндексе",
+    "description": "",
+    "id": "поиск-в-яндексе",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/checkLinkAfterSearch.feature",
+    "tags": [
+      {
+        "name": "@otlad",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Переход на сайт open.ru из google и проверка курса валют",
+        "description": "",
+        "id": "тестирование-open.ru;переход-на-сайт-open.ru-из-google-и-проверка-курса-валют",
+        "after": [
+          {
+            "result": {
+              "duration": 677291200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.завершитьРаботу()"
+            }
+          },
+          {
+            "result": {
+              "duration": 218400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_01()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9211593100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "запустить Chrome",
+            "match": {
+              "location": "BaseStepDefs.запуститьChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 750856600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "перейти на сайт \u0027https://www.google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com/",
+                  "offset": 17
+                }
+              ],
+              "location": "BaseStepDefs.перейти_на_сайт(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136772800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "написать в строке поиска \u0027Открытие\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Открытие",
+                  "offset": 26
+                }
+              ],
+              "location": "OpenStepDefs.написатьВСтрокеПоиска(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1367243800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "нажать Поиск",
+            "match": {
+              "location": "OpenStepDefs.нажатьПоиск()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15594800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "проверить, что результатах поиска есть \u0027https://www.open.ru/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.open.ru/",
+                  "offset": 40
+                }
+              ],
+              "location": "OpenStepDefs.проверитьЧтоРезультатахПоискаЕсть(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2849762100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "перейти на сайт \u0027https://www.open.ru\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.open.ru",
+                  "offset": 17
+                }
+              ],
+              "location": "BaseStepDefs.перейти_на_сайт(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 382021800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "проверить в блоке «Курс обмена в интернет-банке», что курс продажи больше курса покупки, для USD и для EUR.",
+            "match": {
+              "location": "OpenStepDefs.проверитьВБлокеКурсОбменаВИнтернетБанкеЧтоКурсПродажиБольшеКурсаПокупкиДляUSDИДляEUR()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@otlad"
+          }
+        ]
+      }
+    ],
+    "name": "Тестирование open.ru",
+    "description": "",
+    "id": "тестирование-open.ru",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/googleOpenRuSearchRate.feature",
+    "tags": [
+      {
+        "name": "@otlad",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Фильтрование по производителю Apple в мобильных телефонах",
+        "description": "",
+        "id": "тестирование-https://market.yandex.ru/;фильтрование-по-производителю-apple-в-мобильных-телефонах",
+        "after": [
+          {
+            "result": {
+              "duration": 694382000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.завершитьРаботу()"
+            }
+          },
+          {
+            "result": {
+              "duration": 210600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_01()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9217775100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "запустить Chrome",
+            "match": {
+              "location": "BaseStepDefs.запуститьChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1635397700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "перейти на сайт \u0027https://market.yandex.ru/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://market.yandex.ru/",
+                  "offset": 17
+                }
+              ],
+              "location": "BaseStepDefs.перейти_на_сайт(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4593192200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "перейти в раздел \u0027Мобильные телефоны\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Мобильные телефоны",
+                  "offset": 18
+                }
+              ],
+              "location": "YandexMarketStepDefs.перейтиВРаздел(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3606526000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "установить фильтр по производителю \u0027Apple\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 36
+                }
+              ],
+              "location": "YandexMarketStepDefs.установитьФильтрПоПроизводителю(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13353114100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "проверить что в полученной выборке только производитель \u0027Apple\u0027 на \u002710\u0027 страницах",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 57
+                },
+                {
+                  "val": "10",
+                  "offset": 68
+                }
+              ],
+              "location": "YandexMarketStepDefs.проверитьЧтоВПолученнойВыборкеТолькоПроизводительНаСтраницах(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@otlad"
+          }
+        ]
+      }
+    ],
+    "name": "Тестирование https://market.yandex.ru/",
+    "description": "",
+    "id": "тестирование-https://market.yandex.ru/",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/yandexMarketAppleFilter.feature",
+    "tags": [
+      {
+        "name": "@otlad",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
